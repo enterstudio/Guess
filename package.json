@@ -13,7 +13,7 @@
     "cryptr": "~2.0.0",
     "debug": "~2.2.0",
     "eslint-config-google": "^0.7.1",
-    "express": "~4.13.4",
+    "express": "~4.15.5",
     "firebase": "^3.6.8",
     "forever": "^0.15.3",
     "isomorphic-fetch": "^2.2.1",
@@ -23,7 +23,7 @@
     "morgan": "~1.7.0",
     "mustache-express": "^1.2.4",
     "preact-render-to-string": "^3.5.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
     "autoprefixer": "^6.6.0",
