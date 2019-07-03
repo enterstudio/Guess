@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "./node_modules/.bin/forever ./bin/www",
-    "build": "webpack"
+    "build": "webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -23,7 +25,8 @@
     "morgan": "~1.7.0",
     "mustache-express": "^1.2.4",
     "preact-render-to-string": "^3.5.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.6.0",
@@ -79,5 +82,6 @@
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-md5-hash": "0.0.5",
     "webpack-visualizer-plugin": "^0.1.10"
-  }
+  },
+  "snyk": true
 }
