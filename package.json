@@ -15,7 +15,7 @@
     "eslint-config-google": "^0.7.1",
     "express": "~4.13.4",
     "firebase": "^3.6.8",
-    "forever": "^0.15.3",
+    "forever": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
     "js-base64": "^2.1.9",
     "mongodb": "^2.2.19",
