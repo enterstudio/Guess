@@ -16,7 +16,7 @@
     "express": "~4.13.4",
     "firebase": "^3.6.8",
     "forever": "^0.15.3",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "js-base64": "^2.1.9",
     "mongodb": "^2.2.19",
     "mongodb-autoincrement": "^1.0.1",
